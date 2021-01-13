@@ -14,7 +14,10 @@ namespace SimpleAPI.Test
             Assert.Equal("Freezing", returnvalue);
         }
 
-
+        [Fact]
+        public void BrokenTest(){
+            Assert.Equal("break", "me");
+        }
 
         [Fact]
         public void Test1()
